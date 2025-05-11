@@ -1,10 +1,7 @@
 # Dad-Joke-Machine
-This project shows how to call an API using JavaScript, parsing the data as JSON and displaying it in the HTML document. 
-
-JavaScript code:
-
+This project shows how to call an API in JavaScript 
+```javascript
 const jokebtn = document.getElementById("jokebtn")
-
 const joke = document.getElementById("joke")
 
 jokebtn.addEventListener('click', generateJoke)
@@ -23,5 +20,9 @@ async function generateJoke () {
 
     joke.innerHTML = data.joke
 }
+
+
+
+
 
 
