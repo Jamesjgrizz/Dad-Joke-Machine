@@ -4,6 +4,7 @@ This project shows how to call an API using JavaScript, parsing the data as JSON
 JavaScript code:
 
 const jokebtn = document.getElementById("jokebtn")
+
 const joke = document.getElementById("joke")
 
 jokebtn.addEventListener('click', generateJoke)
