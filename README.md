@@ -2,6 +2,7 @@
 This project shows how to call an API using JavaScript, parsing the data as JSON and displaying it in the HTML document. 
 
 JavaScript code:
+
 const jokebtn = document.getElementById("jokebtn")
 const joke = document.getElementById("joke")
 
