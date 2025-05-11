@@ -1,6 +1,6 @@
 # Dad-Joke-Machine
 This project shows how to call an API in JavaScript 
-```javascript
+```JS
 const jokebtn = document.getElementById("jokebtn")
 const joke = document.getElementById("joke")
 
@@ -20,6 +20,7 @@ async function generateJoke () {
 
     joke.innerHTML = data.joke
 }
+```
 
 
 
