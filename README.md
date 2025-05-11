@@ -1,6 +1,7 @@
 # Dad-Joke-Machine
 This project shows how to call an API in JavaScript. I'll also add the HTML and CSS files to show how I built and styled the page.
 
+JavaScript
 ```
 const jokebtn = document.getElementById("jokebtn")
 const joke = document.getElementById("joke")
